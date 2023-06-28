@@ -24,7 +24,7 @@ public class GameLaunch : MonoBehaviour
         Application.targetFrameRate = 60;
     }
 
-    IEnumerator Start ()
+    IEnumerator Start()
     {
         //注释掉IOS的推送服务
 //#if UNITY_IPHONE

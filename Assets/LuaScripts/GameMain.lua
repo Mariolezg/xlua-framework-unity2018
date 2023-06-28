@@ -27,7 +27,12 @@ end
 --主入口函数。从这里开始lua逻辑
 local function Start()
 	print("GameMain start...")
-	
+
+	--package.cpath = package.cpath .. ';C:/Users/Administrator/AppData/Roaming/JetBrains/IdeaIC2023.1/plugins/EmmyLua/debugger/emmy/windows/x64/?.dll'
+	--local dbg = require('emmy_core')
+	--dbg.tcpConnect('localhost', 9966)
+
+
 	-- 模块启动
 	UpdateManager:GetInstance():Startup()
 	TimerManager:GetInstance():Startup()
